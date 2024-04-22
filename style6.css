@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: #003399;
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header img {
+    height: 50px;
+}
+.header input[type="search"],
+.header input[type="text"] {
+    padding: 8px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+.header input[type="search"] {
+    flex: 1;
+}
+.nav {
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+.nav a {
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+}
+.banner {
+    background-color: #ffcc00;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+.section {
+    padding: 20px;
+    margin-top: 20px;
+}
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.social-icons {
+    margin-top: 20px;
+}
+.social-icons a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    
+}.social-icon {
+    display: inline-block;
+}
+
+.social-icon img {
+    width: 40px; 
+    height: auto;
+}.produto {
+    margin-bottom: 30px;
+}
+
+.produto img {
+    max-width: 100%;
+}
+
+.produto h2 {
+    font-size: 1.2em;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.produto p {
+    font-size: 0.9em;
+    margin-bottom: 5px;
+
+}telefone-icon {
+        color: #007bff; 
+        font-size: 24px; 
+        text-decoration: none; 
+}
+
